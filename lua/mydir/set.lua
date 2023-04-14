@@ -1,5 +1,10 @@
 vim.opt.termguicolors = true
 
+vim.g.netrw_banner = 0
+vim.g.netrw_liststyle = 3
+vim.g.netrw_browse_split = 4
+vim.g.netrw_winsize = 25
+
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -27,3 +32,4 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.wrap = false
+
