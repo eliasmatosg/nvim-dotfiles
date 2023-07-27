@@ -11,12 +11,21 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use ({
-	  'morhetz/gruvbox',
-	  as = 'gruvbox',
-	  config = function()
-		  vim.cmd('colorscheme gruvbox')
-	  end
+
+  --use ({
+  --    'morhetz/gruvbox',
+  --    as = 'gruvbox',
+  --    config = function()
+  --  	  vim.cmd('colorscheme gruvbox')
+  --    end
+  --})
+
+  use({
+      'Mofiqul/dracula.nvim',
+      as = 'dracula',
+      config = function()
+          vim.cmd('colorscheme dracula')
+      end
   })
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
