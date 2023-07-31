@@ -35,6 +35,17 @@ return require('packer').startup(function(use)
   },
 }
 
+use {
+  'glepnir/dashboard-nvim',
+  event = 'VimEnter',
+  config = function()
+    require('dashboard').setup {
+      -- config
+    }
+  end,
+  requires = {'nvim-tree/nvim-web-devicons'}
+}
+
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
