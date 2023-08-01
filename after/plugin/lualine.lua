@@ -33,7 +33,16 @@ require('lualine').setup {
     lualine_y = {},
     lualine_z = {}
   },
-  tabline = {},
+  tabline = {
+      lualine_a = {
+			{
+				"buffers",
+				separator = { left = "", right = "" },
+				right_padding = 2,
+				symbols = { alternate_file = "" },
+            }},
+            lualine_b = {'branch'},
+  },
   winbar = {},
   inactive_winbar = {},
   extensions = {}
