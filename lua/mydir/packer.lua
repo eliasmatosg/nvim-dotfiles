@@ -79,6 +79,8 @@ use {
   use('nvim-tree/nvim-web-devicons')
   use('f-person/git-blame.nvim')
   use('folke/tokyonight.nvim')
+  use("github/copilot.vim")
+  use("BurntSushi/ripgrep")
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',

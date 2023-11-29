@@ -9,6 +9,7 @@ vim.keymap.set('n', '<leader>6', ':LualineBuffersJump! 6<CR>', { silent = true }
 vim.keymap.set('n', '<leader>7', ':LualineBuffersJump! 7<CR>', { silent = true })
 vim.keymap.set('n', '<leader>8', ':LualineBuffersJump! 8<CR>', { silent = true })
 vim.keymap.set('n', '<leader>9', ':LualineBuffersJump! 9<CR>', { silent = true })
+vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 vim.keymap.set("n", "<Leader>h", ":bprevious<CR>", { silent = true })
 vim.keymap.set("n", "<Leader>l", ":bnext<CR>", { silent = true })
 vim.keymap.set("n", "<Leader>q", ":bdelete<CR>", { silent = true })
