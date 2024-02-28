@@ -32,4 +32,7 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set("n", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
+lsp.skip_server_setup({'jdtls'})
+
+
 lsp.setup()
