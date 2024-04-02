@@ -73,9 +73,6 @@ function ColorMyPencils(color)
 
     vim.api.nvim_set_hl(0, "Normal", { bg = "none"})
     vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none"})
-    --vim.g.gruvbox_contrast_dark = 'hard'
-    --vim.g.gruvbox_italic = 1
-    --vim.g.gruvbox_bold = 1
 
 end
 ColorMyPencils()

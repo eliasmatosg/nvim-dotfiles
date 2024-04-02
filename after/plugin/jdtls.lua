@@ -135,7 +135,6 @@ local function jdtls_on_attach(client, bufnr)
   -- The following mappings are based on the suggested usage of nvim-jdtls
   -- https://github.com/mfussenegger/nvim-jdtls#usage
   
-  local opts = {buffer = bufnr, remap= false}
   local opts = {buffer = bufnr, remap = false}
   
   vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
