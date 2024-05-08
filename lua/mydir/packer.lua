@@ -73,6 +73,7 @@ use {
   use("github/copilot.vim")
   use("BurntSushi/ripgrep")
   use("mfussenegger/nvim-jdtls")
+  use("nordtheme/vim")
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
