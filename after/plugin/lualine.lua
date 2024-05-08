@@ -40,6 +40,10 @@ require('lualine').setup {
 				separator = { left = "", right = "" },
 				right_padding = 2,
 				symbols = { alternate_file = "" },
+                buffers_color = {
+                    active = { fg = "#2E3440", bg = "#88C0D0" },
+                    inactive = { fg = "#2E3440", bg = "#4C566A" },
+                }
             }},
             lualine_b = {'branch'},
   },
